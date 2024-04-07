@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools{
-        maven 'M2_HOME'
+        maven 'Maven'
     }
     environment {
         registry = '651014072071.dkr.ecr.us-east-1.amazonaws.com/devops_repository'
